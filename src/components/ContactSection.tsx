@@ -4,10 +4,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Mail, MessageSquare, Calendar, ArrowRight } from "lucide-react";
-
 const ContactSection = () => {
-  return (
-    <section id="contact" className="py-24 relative">
+  return <section id="contact" className="py-24 relative">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Column - Content */}
@@ -16,10 +14,7 @@ const ContactSection = () => {
               <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
                 Let's Build the Future Together
               </h2>
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                Ready to transform your business with AI? Our experts are here to guide you through 
-                every step of your digital transformation journey.
-              </p>
+              <p className="text-xl text-muted-foreground leading-relaxed">Ready to transform your business with AI? Skip all the middle man and directly talk to an experienced product manager. </p>
             </div>
 
             {/* Contact Options */}
@@ -74,55 +69,30 @@ const ContactSection = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="firstName">First Name</Label>
-                    <Input 
-                      id="firstName" 
-                      placeholder="John"
-                      className="bg-muted/50 border-border focus:ring-primary"
-                    />
+                    <Input id="firstName" placeholder="John" className="bg-muted/50 border-border focus:ring-primary" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="lastName">Last Name</Label>
-                    <Input 
-                      id="lastName" 
-                      placeholder="Doe"
-                      className="bg-muted/50 border-border focus:ring-primary"
-                    />
+                    <Input id="lastName" placeholder="Doe" className="bg-muted/50 border-border focus:ring-primary" />
                   </div>
                 </div>
 
                 <div className="space-y-2">
                   <Label htmlFor="email">Email</Label>
-                  <Input 
-                    id="email" 
-                    type="email" 
-                    placeholder="john@company.com"
-                    className="bg-muted/50 border-border focus:ring-primary"
-                  />
+                  <Input id="email" type="email" placeholder="john@company.com" className="bg-muted/50 border-border focus:ring-primary" />
                 </div>
 
                 <div className="space-y-2">
                   <Label htmlFor="company">Company</Label>
-                  <Input 
-                    id="company" 
-                    placeholder="Your Company Name"
-                    className="bg-muted/50 border-border focus:ring-primary"
-                  />
+                  <Input id="company" placeholder="Your Company Name" className="bg-muted/50 border-border focus:ring-primary" />
                 </div>
 
                 <div className="space-y-2">
                   <Label htmlFor="message">Project Details</Label>
-                  <Textarea 
-                    id="message" 
-                    placeholder="Tell us about your AI project goals, timeline, and requirements..."
-                    className="bg-muted/50 border-border focus:ring-primary min-h-24"
-                  />
+                  <Textarea id="message" placeholder="Tell us about your AI project goals, timeline, and requirements..." className="bg-muted/50 border-border focus:ring-primary min-h-24" />
                 </div>
 
-                <Button 
-                  type="submit"
-                  className="w-full bg-gradient-primary text-primary-foreground hover:shadow-primary transition-smooth group"
-                  size="lg"
-                >
+                <Button type="submit" className="w-full bg-gradient-primary text-primary-foreground hover:shadow-primary transition-smooth group" size="lg">
                   Send Message
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-smooth" />
                 </Button>
@@ -131,8 +101,6 @@ const ContactSection = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;

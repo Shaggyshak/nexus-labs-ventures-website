@@ -28,6 +28,9 @@ const Index = () => {
             <p className="text-muted-foreground">
               Transforming businesses through expert AI product management consulting
             </p>
+            <p className="text-sm text-muted-foreground/80">
+              Based in New York City
+            </p>
             <p className="text-sm text-muted-foreground">
               © 2024 Nexus Labs Ventures. All rights reserved.
             </p>

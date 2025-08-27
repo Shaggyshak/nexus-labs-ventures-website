@@ -31,7 +31,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Email Us</h3>
-                    <p className="text-muted-foreground">hello@nexuslabsventures.com</p>
+                    <p className="text-muted-foreground">hi@nexuslabsventures.space</p>
                   </div>
                 </div>
               </Card>

@@ -14,7 +14,7 @@ const ContactSection = () => {
               <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
                 Let's Build the Future Together
               </h2>
-              <p className="text-xl text-muted-foreground leading-relaxed">Ready to transform your business with AI? Skip all the middle man and directly talk to an experienced product manager. </p>
+              <p className="text-xl text-muted-foreground leading-relaxed">Ready to transform your business with AI? No sales pitches, no middle layers—just direct access to seasoned product managers who understand your technical challenges and business goals. </p>
             </div>
 
             {/* Contact Options */}

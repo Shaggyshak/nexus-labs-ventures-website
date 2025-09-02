@@ -12,37 +12,37 @@ const ServicesSection = () => {
   const services = [
     {
       icon: <Lightbulb className="w-8 h-8" />,
-      title: "AI Product Strategy",
-      description: "Define your AI roadmap with market research, competitive analysis, and strategic planning tailored to your business goals.",
+      title: "Multi-sided Marketplaces",
+      description: "Design and optimize complex marketplace ecosystems with deep expertise in supply-demand dynamics, pricing strategies, and network effects.",
       features: [
-        "Market Opportunity Analysis",
-        "AI Readiness Assessment", 
-        "Technology Stack Planning",
-        "ROI Modeling & Forecasting"
+        "Platform Strategy & Design",
+        "Supply-Demand Optimization", 
+        "Trust & Safety Systems",
+        "Network Effect Implementation"
       ],
       gradient: "from-primary to-primary-glow"
     },
     {
       icon: <Rocket className="w-8 h-8" />,
-      title: "Execution & Delivery",
-      description: "Turn strategy into reality with agile methodologies, cross-functional team coordination, and milestone-driven development.",
+      title: "Gen AI-Powered Products",
+      description: "Build cutting-edge AI products from concept to launch, leveraging the latest in generative AI, LLMs, and machine learning technologies.",
       features: [
-        "Agile Project Management",
-        "Cross-functional Coordination",
-        "Quality Assurance & Testing",
-        "Performance Optimization"
+        "AI Product Strategy",
+        "LLM Integration & Optimization",
+        "AI Workflow Design",
+        "Performance & Safety Metrics"
       ],
       gradient: "from-secondary to-secondary-glow"
     },
     {
       icon: <Users className="w-8 h-8" />,
-      title: "Expert Sourcing",
-      description: "Connect with top-tier AI talent and specialized vendors through our curated network of vetted professionals.",
+      title: "Specialized Systems",
+      description: "Expert product management for complex technical domains including billing systems, workflow automation, GIS mapping, and 2D/3D visualization.",
       features: [
-        "AI Talent Acquisition",
-        "Vendor Assessment & Selection",
-        "Team Scaling Solutions",
-        "Knowledge Transfer Programs"
+        "Billing & Payment Systems",
+        "Workflow Automation",
+        "GIS & Mapping Solutions",
+        "2D/3D Visualization Tools"
       ],
       gradient: "from-accent to-accent-glow"
     }
@@ -54,10 +54,10 @@ const ServicesSection = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            Comprehensive AI Solutions
+            Specialized Product Expertise
           </h2>
           <p className="text-xl text-muted-foreground">
-            End-to-end AI product management services designed to accelerate your digital transformation
+            Deep expertise in complex product domains that require specialized technical and strategic knowledge
           </p>
         </div>
 

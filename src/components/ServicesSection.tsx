@@ -4,6 +4,7 @@ import {
   Lightbulb, 
   Rocket, 
   Users, 
+  Map,
   ArrowRight,
   CheckCircle 
 } from "lucide-react";
@@ -36,15 +37,27 @@ const ServicesSection = () => {
     },
     {
       icon: <Users className="w-8 h-8" />,
-      title: "Specialized Systems",
-      description: "Expert product management for complex technical domains including billing systems, workflow automation, GIS mapping, and 2D/3D visualization.",
+      title: "Business Systems",
+      description: "Expert product management for enterprise-grade billing platforms and workflow automation systems that scale with business growth.",
       features: [
         "Billing & Payment Systems",
+        "Subscription Management",
         "Workflow Automation",
-        "GIS & Mapping Solutions",
-        "2D/3D Visualization Tools"
+        "Business Process Optimization"
       ],
       gradient: "from-accent to-accent-glow"
+    },
+    {
+      icon: <Map className="w-8 h-8" />,
+      title: "Spatial & Visual Tech",
+      description: "Advanced product management for GIS mapping platforms and immersive 2D/3D visualization systems across industries.",
+      features: [
+        "GIS & Mapping Solutions",
+        "Geospatial Data Systems",
+        "2D/3D Visualization Tools",
+        "Interactive Visual Interfaces"
+      ],
+      gradient: "from-primary to-accent"
     }
   ];
 
@@ -62,7 +75,7 @@ const ServicesSection = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {services.map((service, index) => (
             <Card key={index} className="glass-card border-card-border p-8 hover:shadow-elevated transition-smooth group">
               <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${service.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-bounce`}>

@@ -48,7 +48,7 @@ const HeroSection = () => {
               <div className="w-px h-6 bg-border"></div>
               <div className="text-2xl font-bold">0-1 early stage AI-powered products</div>
               <div className="w-px h-6 bg-border"></div>
-              <div className="text-2xl font-bold"> Leaders and Team Builders</div>
+              <div className="text-2xl font-bold"> Real leaders and team builders</div>
             </div>
           </div>
         </div>

@@ -1,10 +1,10 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { 
-  Lightbulb, 
-  Rocket, 
-  Users, 
-  Map,
+  CreditCard, 
+  Workflow, 
+  MapPin, 
+  Box,
   ArrowRight,
   CheckCircle 
 } from "lucide-react";
@@ -12,50 +12,50 @@ import {
 const ServicesSection = () => {
   const services = [
     {
-      icon: <Lightbulb className="w-8 h-8" />,
-      title: "Startup PM Foundation",
-      description: "Build essential product management processes from scratch. Get your roadmap, user research framework, and analytics foundation in place.",
+      icon: <CreditCard className="w-8 h-8" />,
+      title: "Billing & Payments",
+      description: "Design scalable billing systems for SaaS, subscriptions, and complex pricing models with seamless user experience.",
       features: [
-        "Product Strategy & Roadmapping",
-        "User Research & Validation", 
-        "Analytics & KPI Framework",
-        "Cross-functional Process Setup"
+        "Subscription Management",
+        "Usage-Based Pricing", 
+        "Payment Flow Optimization",
+        "Revenue Recovery Systems"
       ],
       gradient: "from-primary to-primary-glow"
     },
     {
-      icon: <Rocket className="w-8 h-8" />,
-      title: "Growth Stage Scaling",
-      description: "Scale your product processes as you grow. Implement advanced PM practices, optimize workflows, and prepare for team expansion.",
+      icon: <Workflow className="w-8 h-8" />,
+      title: "Enterprise Workflows",
+      description: "Build sophisticated workflow engines and approval processes that scale with your business complexity.",
       features: [
-        "Advanced PM Methodologies",
-        "Team Workflow Optimization",
-        "Product-Market Fit Analysis",
-        "Scaling Process Design"
+        "Multi-Step Approval Flows",
+        "Role-Based Permissions",
+        "Process Automation",
+        "Integration Architecture"
       ],
       gradient: "from-secondary to-secondary-glow"
     },
     {
-      icon: <Users className="w-8 h-8" />,
-      title: "Technical Product Leadership",
-      description: "Navigate complex technical products with specialized PM expertise in AI, marketplaces, billing systems, and enterprise workflows.",
+      icon: <MapPin className="w-8 h-8" />,
+      title: "GIS & Mapping",
+      description: "Navigate location-based products with expertise in spatial data, mapping interfaces, and geospatial analytics.",
       features: [
-        "AI & ML Product Strategy",
-        "Marketplace & Platform Design",
-        "Complex System Architecture",
-        "Technical Roadmap Planning"
+        "Spatial Data Strategy",
+        "Interactive Map Design",
+        "Location Intelligence",
+        "Geographic Analytics"
       ],
       gradient: "from-accent to-accent-glow"
     },
     {
-      icon: <Map className="w-8 h-8" />,
-      title: "PM Team Building",
-      description: "Prepare your organization for hiring full-time PMs. Train existing team members and establish hiring criteria and processes.",
+      icon: <Box className="w-8 h-8" />,
+      title: "3D & Visualization",
+      description: "Drive innovation in 3D applications, data visualization, and immersive user experiences across platforms.",
       features: [
-        "PM Hiring Strategy & Process",
-        "Team Training & Mentorship",
-        "Interview Process Design",
-        "Transition Planning"
+        "3D Interface Design",
+        "Data Visualization Strategy",
+        "Performance Optimization",
+        "Cross-Platform Experience"
       ],
       gradient: "from-primary to-accent"
     }
@@ -67,15 +67,15 @@ const ServicesSection = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            Fractional PM Services
+            Specialized Product Expertise
           </h2>
           <p className="text-xl text-muted-foreground">
-            Get expert product management support tailored to your startup's growth stage and technical needs
+            Deep domain expertise in complex systems that most PMs struggle with
           </p>
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {services.map((service, index) => (
             <Card key={index} className="glass-card border-card-border p-8 hover:shadow-elevated transition-smooth group">
               <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${service.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-bounce`}>

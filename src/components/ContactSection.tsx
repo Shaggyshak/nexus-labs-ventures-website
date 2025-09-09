@@ -11,7 +11,7 @@ const ContactSection = () => {
           {/* Left Column - Content */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Talk to a Product Manager now</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Connect with a Product Leader</h2>
               <p className="text-xl text-muted-foreground leading-relaxed">Skip the drawn-out hiring cycles and overpriced consulting hours with no clear ROI. Get a seasoned PM who knows startups, understands technical challenges, and can take a product from zero to one — and most importantly, gets things done.
 
 We’re not a sales team or an agency. We’re a group of hands-on product managers who love building. No fluff, no middlemen — just direct access to someone who can help you move faster.</p>

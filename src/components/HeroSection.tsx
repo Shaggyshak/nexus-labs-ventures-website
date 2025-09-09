@@ -12,7 +12,7 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 glass-card px-4 py-2 rounded-full">
             <Sparkles className="w-4 h-4 text-accent" />
-            <span className="text-sm text-muted-foreground">AI Product Management</span>
+            <span className="text-sm text-muted-foreground">Fractional AI Product Management</span>
           </div>
           
           {/* Hero Headline */}

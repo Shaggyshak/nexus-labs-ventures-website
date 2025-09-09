@@ -46,7 +46,7 @@ const HeroSection = () => {
             <div className="flex items-center justify-center space-x-8 opacity-60">
               <div className="text-2xl font-bold">10+ YoE working in NYC and Bay Area tech hubs</div>
               <div className="w-px h-6 bg-border"></div>
-              <div className="text-2xl font-bold">0-1 early stage Specialists</div>
+              <div className="text-2xl font-bold">0-1 early stage AI-powered products</div>
               <div className="w-px h-6 bg-border"></div>
               <div className="text-2xl font-bold"> Leaders and Team Builders</div>
             </div>

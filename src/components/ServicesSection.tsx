@@ -13,49 +13,49 @@ const ServicesSection = () => {
   const services = [
     {
       icon: <Lightbulb className="w-8 h-8" />,
-      title: "Multi-sided Marketplaces",
-      description: "Design and optimize complex marketplace ecosystems with deep expertise in supply-demand dynamics, pricing strategies, and network effects.",
+      title: "Startup PM Foundation",
+      description: "Build essential product management processes from scratch. Get your roadmap, user research framework, and analytics foundation in place.",
       features: [
-        "Platform Strategy & Design",
-        "Supply-Demand Optimization", 
-        "Trust & Safety Systems",
-        "Network Effect Implementation"
+        "Product Strategy & Roadmapping",
+        "User Research & Validation", 
+        "Analytics & KPI Framework",
+        "Cross-functional Process Setup"
       ],
       gradient: "from-primary to-primary-glow"
     },
     {
       icon: <Rocket className="w-8 h-8" />,
-      title: "Gen AI-Powered Products",
-      description: "Build cutting-edge AI products from concept to launch, leveraging the latest in generative AI, LLMs, and machine learning technologies.",
+      title: "Growth Stage Scaling",
+      description: "Scale your product processes as you grow. Implement advanced PM practices, optimize workflows, and prepare for team expansion.",
       features: [
-        "AI Product Strategy",
-        "LLM Integration & Optimization",
-        "AI Workflow Design",
-        "Performance & Safety Metrics"
+        "Advanced PM Methodologies",
+        "Team Workflow Optimization",
+        "Product-Market Fit Analysis",
+        "Scaling Process Design"
       ],
       gradient: "from-secondary to-secondary-glow"
     },
     {
       icon: <Users className="w-8 h-8" />,
-      title: "Business Systems",
-      description: "Expert product management for enterprise-grade billing platforms and workflow automation systems that scale with business growth.",
+      title: "Technical Product Leadership",
+      description: "Navigate complex technical products with specialized PM expertise in AI, marketplaces, billing systems, and enterprise workflows.",
       features: [
-        "Billing & Payment Systems",
-        "Subscription Management",
-        "Workflow Automation",
-        "Business Process Optimization"
+        "AI & ML Product Strategy",
+        "Marketplace & Platform Design",
+        "Complex System Architecture",
+        "Technical Roadmap Planning"
       ],
       gradient: "from-accent to-accent-glow"
     },
     {
       icon: <Map className="w-8 h-8" />,
-      title: "Spatial & Visual Tech",
-      description: "Advanced product management for GIS mapping platforms and immersive 2D/3D visualization systems across industries.",
+      title: "PM Team Building",
+      description: "Prepare your organization for hiring full-time PMs. Train existing team members and establish hiring criteria and processes.",
       features: [
-        "GIS & Mapping Solutions",
-        "Geospatial Data Systems",
-        "2D/3D Visualization Tools",
-        "Interactive Visual Interfaces"
+        "PM Hiring Strategy & Process",
+        "Team Training & Mentorship",
+        "Interview Process Design",
+        "Transition Planning"
       ],
       gradient: "from-primary to-accent"
     }
@@ -67,10 +67,10 @@ const ServicesSection = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            Specialized Product Expertise
+            Fractional PM Services
           </h2>
           <p className="text-xl text-muted-foreground">
-            Deep expertise in complex product domains that require specialized technical and strategic knowledge
+            Get expert product management support tailored to your startup's growth stage and technical needs
           </p>
         </div>
 
@@ -109,15 +109,15 @@ const ServicesSection = () => {
         {/* CTA Section */}
         <div className="text-center">
           <div className="glass-card border-card-border p-8 rounded-2xl max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4">Ready to Transform Your Business?</h3>
+            <h3 className="text-2xl font-bold mb-4">Ready to Build Your Product Foundation?</h3>
             <p className="text-muted-foreground mb-6">
-              Let's discuss how our AI expertise can accelerate your product development and market success.
+              Let's discuss your product challenges and how fractional PM can accelerate your startup's growth.
             </p>
             <Button 
               size="lg"
               className="bg-gradient-primary text-primary-foreground hover:shadow-primary transition-smooth"
             >
-              Schedule a Consultation
+              Book Free Consultation
             </Button>
           </div>
         </div>

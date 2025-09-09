@@ -14,22 +14,22 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 glass-card px-4 py-2 rounded-full">
             <Sparkles className="w-4 h-4 text-accent" />
-            <span className="text-sm text-muted-foreground">AI Product Management Experts</span>
+            <span className="text-sm text-muted-foreground">Fractional Product Management</span>
           </div>
           
           {/* Hero Headline */}
           <h1 className="hero-text leading-tight">
-            Transform Your Business
+            Skip the Hiring Hassle,
             <br />
-            with AI Product
+            Get Your First Product
             <br />
-            <span className="text-accent">Strategy</span>
+            <span className="text-accent">Manager Today</span>
           </h1>
           
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            From strategic planning to flawless execution and expert sourcing, 
-            we guide enterprises through their AI transformation journey with proven methodologies.
+            Struggling to find or afford a full-time PM? Get expert fractional product management 
+            to build your product foundation, scale your processes, and bridge to your first hire.
           </p>
           
           {/* CTA Buttons */}
@@ -38,7 +38,7 @@ const HeroSection = () => {
               size="lg"
               className="bg-gradient-primary text-primary-foreground hover:shadow-primary transition-smooth group"
             >
-              Start Your AI Journey
+              Get Your Fractional PM
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-smooth" />
             </Button>
             <Button 
@@ -46,21 +46,21 @@ const HeroSection = () => {
               size="lg"
               className="glass-card border-white/20 text-foreground hover:bg-white/5 transition-smooth"
             >
-              View Case Studies
+              Free Consultation
             </Button>
           </div>
           
           {/* Trust Indicators */}
           <div className="pt-16 space-y-4">
             <p className="text-sm text-muted-foreground uppercase tracking-wider">
-              Trusted by Enterprise Leaders
+              Expert Product Management Leadership
             </p>
             <div className="flex items-center justify-center space-x-8 opacity-60">
-              <div className="text-2xl font-bold">Fortune 500</div>
+              <div className="text-2xl font-bold">10+ Years Experience</div>
               <div className="w-px h-6 bg-border"></div>
-              <div className="text-2xl font-bold">Startups</div>
+              <div className="text-2xl font-bold">Startup Specialist</div>
               <div className="w-px h-6 bg-border"></div>
-              <div className="text-2xl font-bold">Scale-ups</div>
+              <div className="text-2xl font-bold">Fractional Leader</div>
             </div>
           </div>
         </div>

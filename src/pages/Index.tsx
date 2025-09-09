@@ -2,10 +2,8 @@ import Navigation from "../components/Navigation";
 import HeroSection from "../components/HeroSection";
 import ServicesSection from "../components/ServicesSection";
 import ContactSection from "../components/ContactSection";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Navigation />
       <main>
         <HeroSection />
@@ -31,14 +29,10 @@ const Index = () => {
             <p className="text-sm text-muted-foreground/80">
               Based in New York City
             </p>
-            <p className="text-sm text-muted-foreground">
-              © 2024 Nexus Labs Ventures. All rights reserved.
-            </p>
+            <p className="text-sm text-muted-foreground">© 2025 Nexus Labs Ventures. All rights reserved.</p>
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;

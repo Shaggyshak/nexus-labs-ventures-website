@@ -11,10 +11,10 @@ const ContactSection = () => {
           {/* Left Column - Content */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-                Get Your First PM Without the Hiring Hassle
-              </h2>
-              <p className="text-xl text-muted-foreground leading-relaxed">Ready to move fast with expert product management? Skip the months-long hiring process and get a seasoned PM who understands startups, technical challenges, and how to build products that matter. </p>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Talk to a Product Manager now</h2>
+              <p className="text-xl text-muted-foreground leading-relaxed">Skip the drawn-out hiring cycles and overpriced consulting hours with no clear ROI. Get a seasoned PM who knows startups, understands technical challenges, and can take a product from zero to one — and most importantly, gets things done.
+
+We’re not a sales team or an agency. We’re a group of hands-on product managers who love building. No fluff, no middlemen — just direct access to someone who can help you move faster.</p>
             </div>
 
             {/* Contact Options */}
@@ -37,8 +37,8 @@ const ContactSection = () => {
                     <Calendar className="w-6 h-6 text-background" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg">Book a Free Consultation</h3>
-                    <p className="text-muted-foreground">Discuss your product challenges</p>
+                    <h3 className="font-semibold text-lg">Book a Meeting</h3>
+                    <p className="text-muted-foreground">Schedule a free consultation call</p>
                   </div>
                 </div>
               </Card>
@@ -59,11 +59,11 @@ const ContactSection = () => {
 
           {/* Right Column - Contact Form */}
           <Card className="glass-card border-card-border p-8">
-              <div className="space-y-6">
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold mb-2">Ready to Get Started?</h3>
-                  <p className="text-muted-foreground">Tell us about your product challenges</p>
-                </div>
+            <div className="space-y-6">
+              <div className="text-center">
+                <h3 className="text-2xl font-bold mb-2">Start Your Project</h3>
+                <p className="text-muted-foreground">Tell us about your AI initiative</p>
+              </div>
 
               <form className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
@@ -88,12 +88,8 @@ const ContactSection = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="message">Product Challenges</Label>
-                  <Textarea 
-                    id="message" 
-                    placeholder="What product management challenges are you facing? Are you struggling to hire a PM, need help with product strategy, or looking to scale your processes?" 
-                    className="bg-muted/50 border-border focus:ring-primary min-h-24" 
-                  />
+                  <Label htmlFor="message">Project Details</Label>
+                  <Textarea id="message" placeholder="Tell us about your AI project goals, timeline, and requirements..." className="bg-muted/50 border-border focus:ring-primary min-h-24" />
                 </div>
 
                 <Button type="submit" className="w-full bg-gradient-primary text-primary-foreground hover:shadow-primary transition-smooth group" size="lg">

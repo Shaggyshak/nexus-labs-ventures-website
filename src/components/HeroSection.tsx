@@ -17,11 +17,9 @@ const HeroSection = () => {
           
           {/* Hero Headline */}
           <h1 className="hero-text leading-tight">
-            Transform Your Business
+            Build Smarter Products, Faster
             <br />
-            with AI Product
-            <br />
-            <span className="text-accent">Manager Today</span>
+            <span className="text-accent">On demand product management</span>
           </h1>
           
           {/* Subheading */}

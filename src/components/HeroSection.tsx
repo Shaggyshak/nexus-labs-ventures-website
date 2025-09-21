@@ -25,7 +25,7 @@ const HeroSection = () => {
           </h1>
           
           {/* Subheading */}
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">Struggling to find or afford a unicorn AI Product Manager? Get expert Individual Contributor Product Management to build your product foundation, scale your processes, and bridge to your first hire.</p>
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">Struggling to find or afford a unicorn AI Product Manager? Get expert "Individual Contributor" Product Management to build your product foundation, scale your processes, and bridge to your first hire.</p>
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">

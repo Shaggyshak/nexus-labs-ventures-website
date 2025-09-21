@@ -1,8 +1,14 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { CreditCard, Workflow, MapPin, Box, ArrowRight, CheckCircle } from "lucide-react";
+import { CreditCard, Workflow, MapPin, Box, ArrowRight, CheckCircle, Bot } from "lucide-react";
 const ServicesSection = () => {
   const services = [{
+    icon: <Bot className="w-8 h-8" />,
+    title: "Agentic AI",
+    description: "Navigate the AI-powered future with strategic implementation of autonomous agents and intelligent automation systems.",
+    features: ["AI Agent Strategy", "Autonomous Workflow Design", "LLM Integration Architecture", "AI Product Roadmapping"],
+    gradient: "from-accent to-primary"
+  }, {
     icon: <CreditCard className="w-8 h-8" />,
     title: "Billing & Payments",
     description: "Design scalable billing systems for SaaS, subscriptions, and complex pricing models with seamless user experience.",
@@ -36,7 +42,7 @@ const ServicesSection = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-16">
           {services.map((service, index) => <Card key={index} className="glass-card border-card-border p-8 hover:shadow-elevated transition-smooth group">
               <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${service.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-bounce`}>
                 <div className="text-background">

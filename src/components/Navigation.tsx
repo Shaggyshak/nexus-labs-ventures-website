@@ -1,14 +1,13 @@
 import { Button } from "@/components/ui/button";
+import nexusLogo from "@/assets/nexus-labs-logo.png";
 
 const Navigation = () => {
   return (
     <nav className="fixed top-0 w-full z-50 glass-card border-b border-white/10">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-background font-bold text-sm">NL</span>
-            </div>
+          <div className="flex items-center space-x-3">
+            <img src={nexusLogo} alt="Nexus Labs Ventures" className="w-10 h-10 rounded-lg" />
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               Nexus Labs Ventures
             </span>

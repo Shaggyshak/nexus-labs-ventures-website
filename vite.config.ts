@@ -4,11 +4,9 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => {
-  const repo = "nexus-labs-ventures-website";
-
   return {
-    // If you're using the GitHub Pages project URL:
-    base: mode === "production" ? `/${repo}/` : "/",
+    // Using custom domain (nexuslabsventures.space)
+    base: "/",
 
     server: { host: "::", port: 8080 },
     plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),

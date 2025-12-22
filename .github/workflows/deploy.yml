@@ -32,7 +32,10 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build -- --base=/nexus-labs-ventures-website/
+        run: npm run build
+
+      - name: Copy index.html to 404.html for client-side routing
+        run: cp dist/index.html dist/404.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

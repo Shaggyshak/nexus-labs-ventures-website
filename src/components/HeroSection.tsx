@@ -42,9 +42,9 @@ const HeroSection = () => {
               Trusted by Enterprise Leaders
             </p>
             <div className="flex items-center justify-center space-x-8 opacity-60">
-              <div className="text-2xl font-bold">10+ YoE working in tech hubs of NYC and Bay Area</div>
+              <div className="text-2xl font-bold">10+ years in tech hubs of NYC and Bay Area</div>
               <div className="w-px h-6 bg-border"></div>
-              <div className="text-2xl font-bold"> Track record of 0-1 product work from conception to laucnh </div>
+              <div className="text-2xl font-bold"> Track record of 0-to-1 product work from conception to launch </div>
               <div className="w-px h-6 bg-border"></div>
               <div className="text-2xl font-bold"> Seasoned leaders and team builders</div>
             </div>

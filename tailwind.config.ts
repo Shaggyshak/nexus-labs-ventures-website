@@ -18,7 +18,13 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+				display: ['Archivo', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+				mono: ['"IBM Plex Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace']
+			},
 			colors: {
+				live: 'hsl(var(--live))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -61,16 +67,11 @@ export default {
 				warning: 'hsl(var(--warning))'
 			},
 			backgroundImage: {
-				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-secondary': 'var(--gradient-secondary)',
-				'gradient-surface': 'var(--gradient-surface)',
-				'gradient-glow': 'var(--gradient-glow)'
+				'gradient-primary': 'var(--gradient-primary)'
 			},
 			boxShadow: {
-				'primary': 'var(--shadow-primary)',
-				'secondary': 'var(--shadow-secondary)',
-				'elevated': 'var(--shadow-elevated)',
-				'glass': 'var(--shadow-glass)'
+				'card': 'var(--shadow-card)',
+				'lift': 'var(--shadow-lift)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

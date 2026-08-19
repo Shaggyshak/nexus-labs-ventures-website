@@ -29,6 +29,13 @@ const Index = () => {
             <p className="text-sm text-muted-foreground/80">
               Based in New York City
             </p>
+            <address className="text-sm text-muted-foreground/80 not-italic">
+              418 Broadway Ste R, Albany, NY 12207
+              <br />
+              <a href="tel:+16464848207" className="hover:text-foreground transition-smooth">
+                (646) 484-8207
+              </a>
+            </address>
             <p className="text-sm text-muted-foreground">© 2025 Nexus Labs Ventures. All rights reserved.</p>
           </div>
         </div>

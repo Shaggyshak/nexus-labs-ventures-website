@@ -30,7 +30,7 @@ const Index = () => {
               Based in New York City
             </p>
             <address className="text-sm text-muted-foreground/80 not-italic">
-              418 Broadway Ste R, Albany, NY 12207
+              1178 Broadway, 3rd Floor #1464, New York, NY 10001
               <br />
               <a href="tel:+16464848207" className="hover:text-foreground transition-smooth">
                 (646) 484-8207

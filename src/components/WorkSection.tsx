@@ -7,11 +7,12 @@ const WorkSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-2xl">
           <p className="label">Work</p>
-          <h2 className="mt-4 text-4xl md:text-5xl">Two systems in production.</h2>
+          <h2 className="mt-4 text-4xl md:text-5xl">Three systems in production.</h2>
           <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-            Most AI consultancies have never shipped a product. These are ours —
-            both live, both carrying real users, both built by the people who
-            would build yours.
+            Most AI consultancies have never shipped a product. These are proof —
+            two of our own, one built as embedded product leadership inside a
+            client's platform. All three live, all three carrying real users,
+            all built by the people who would build yours.
           </p>
         </div>
 

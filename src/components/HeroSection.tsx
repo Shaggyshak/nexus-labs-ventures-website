@@ -96,8 +96,9 @@ const HeroSection = () => {
             </ul>
 
             <p className="border-t border-border bg-muted/60 px-5 py-4 text-sm text-muted-foreground">
-              Both are our own products, live and serving real users. We build
-              for clients the way we build for ourselves.
+              Two are our own products; the third we shipped as embedded product
+              leadership inside a client's platform. We build for clients the
+              way we build for ourselves.
             </p>
           </div>
         </div>

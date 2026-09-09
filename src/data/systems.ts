@@ -12,6 +12,8 @@ export type System = {
   what: string;
   built: string[];
   stack: string[];
+  /** True for a Nexus Labs product; false for embedded work shipped inside a client's platform. */
+  ownProduct: boolean;
 };
 
 export const systems: System[] = [
@@ -29,6 +31,7 @@ export const systems: System[] = [
       "An Excel add-in that writes cells and formulas live, and a review step that lets the analyst reject any write",
     ],
     stack: ["Claude", "Next.js", "Office JS", "Postgres"],
+    ownProduct: true,
   },
   {
     name: "AirOps",
@@ -44,5 +47,22 @@ export const systems: System[] = [
       "Outreach with delivery, reply and opt-out tracking wired end to end, and suppression that is honoured before every send",
     ],
     stack: ["Node", "SQLite", "Gmail API", "GCP"],
+    ownProduct: true,
+  },
+  {
+    name: "Patient.com",
+    summary: "AI benefits assistant, embedded in a health platform",
+    url: "patient.com",
+    href: "https://patient.com",
+    shipped: "2025",
+    audience: "Health-plan members with benefits questions",
+    what: "A conversational agent that answers a patient's own insurance questions — reasoning over their EDI 271 eligibility data and their plan's PDF documents — instead of routing them to a call center. Shipped as embedded product leadership inside the client's platform, not a Nexus Labs product.",
+    built: [
+      "A LangGraph pipeline — question understanding, atomic breakdown, retrieval, generation — over a dual FAISS index spanning eligibility data and plan documents",
+      "A self-hosted, open-source model in the loop, so patient health data never leaves a HIPAA-compliant boundary",
+      "An internal Eval Studio that scores production traffic nightly against an LLM-as-judge, with session replay for debugging",
+    ],
+    stack: ["LangGraph", "FAISS", "Self-hosted LLM", "OpenTelemetry"],
+    ownProduct: false,
   },
 ];
